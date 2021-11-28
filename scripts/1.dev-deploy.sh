@@ -21,10 +21,7 @@ echo ---------------------------------------------------------
 echo
 
 # comment out the line below to deploy the other example contract
-near dev-deploy ./build/release/singleton.wasm
-
-# uncomment the line below to deploy the other example contract
-# near dev-deploy ./build/release/singleton.wasm
+near dev-deploy ./build/release/montyhall.wasm
 
 echo
 echo
