@@ -9,7 +9,7 @@ Simple simulation of the [Monty Hall show](https://en.wikipedia.org/wiki/Monty_H
 1. Run `yarn`
 1. Run `./scripts/1.dev-deploy.sh`
 1. Export the contract ID like `export CONTRACT=dev-123123-123123`
-1. If running for the first time, init with `near call $CONTRACT init --accountId $CONTRACT`
+1. If running for the first time, init with `near call $CONTRACT init --accountId $CONTRACT '{"owner": "megaserg.testnet"}'` (substitute your own account)
 
 ### Play
 - Start the game using the `start_game` method:
@@ -40,3 +40,4 @@ Here, `3` stands for door #3. For some reason, in case you win, the default "pre
 
 ### Videos
 
+Enjoy the [demo](https://www.loom.com/share/8eb59ec6a9a5427b9171d82b2e3c8b6a)!
